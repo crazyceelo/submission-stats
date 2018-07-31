@@ -1,0 +1,23 @@
+{
+  "name": "submission-stats",
+  "version": "1.0.0",
+  "description": "Calculates the probability of a fighters chance to win in an MMA match",
+  "main": "server.js",
+  "scripts": {
+    "test": "submissionStats",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyceelo/submission-stats.git"
+  },
+  "keywords": [
+    "submissionStats"
+  ],
+  "author": "Carlos Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazyceelo/submission-stats/issues"
+  },
+  "homepage": "https://github.com/crazyceelo/submission-stats#readme"
+}
