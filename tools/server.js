@@ -18,6 +18,13 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 app.use(favicon(path.join(__dirname, 'assets', 'public', 'favicon.ico')));
+/*
+Note that I am referencing a favicon 
+stored in tools/assets/public/favicon.ico. 
+Feel free to eliminate that reference 
+if you don't want to add your own 
+charming cat favicon.
+*/
 
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
