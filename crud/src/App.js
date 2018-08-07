@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Router, Route } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import GamesPage from './GamesPage';

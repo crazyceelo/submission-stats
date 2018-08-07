@@ -31,4 +31,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps, { fetchGames })(GamesPage);
+export default connect(mapStateToProps, {fetchGames} )(GamesPage);
